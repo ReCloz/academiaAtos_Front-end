@@ -1,9 +1,28 @@
 .container {
+    background-color: rgb(108, 20, 250);
     height: 300px;
     width: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-basis: 100px;
+    border-radius: 25px;
+    overflow: hidden;
+    justify-content: space-between;
+    
+
 }
 
 .elemento {
+    line-height: 50px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: 0px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(255, 25, 37);
     width: 100px;
     height: 50px;
+
+
 }
+
