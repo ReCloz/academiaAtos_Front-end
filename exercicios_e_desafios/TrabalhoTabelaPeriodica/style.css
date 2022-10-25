@@ -1,0 +1,1055 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+}
+
+
+
+a:link,a:visited,a:hover,a:active {
+    text-decoration: none;
+}
+
+caption{
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+body{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 90%;
+	font: inherit;
+	vertical-align: center;
+
+}
+
+table {
+    width: 800px;
+    margin: 30px auto;
+
+}
+
+table tr{
+    width: 60px;
+}
+
+table th {
+    text-align: center;
+    min-height: 30px;
+    max-height: 30px;
+    border-radius: 4px;
+
+}
+
+table th:nth-child(4){
+    width: 10px;
+}
+
+table td {
+    border-radius: 4px;
+}
+
+.metalalkalino {
+    background-color: rgb(136, 136, 248);
+   
+}
+
+.metaloid {
+    background-color: rgb(185, 123, 243);
+}
+
+.alkalinoterros {
+    background-color: rgb(211, 96, 96);
+}
+
+.ametais{
+    background-color: rgb(118, 202, 202);
+}
+
+.metaistrans{
+    background-color: rgb(127, 170, 84);
+}
+
+.gasnobre{
+    background-color: rgb(204, 172, 92);
+}
+
+.semimetal{
+    background-color: rgb(219, 137, 108);
+}
+
+.actinideo{
+    background-color: rgb(121, 121, 180);
+}
+
+.latanideo{
+    background-color: rgb(202, 113, 131);
+
+}
+
+.halogeneos{
+    background-color: rgb(240, 116, 182);
+    
+}
+
+.latanideo:hover,.actinideo:hover,.semimetal:hover,.gasnobre:hover,.metaistrans:hover,.ametais:hover,.alkalinoterros:hover,.metaloid:hover,.metalalkalino:hover,.halogeneos:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.legenda{
+    border-radius: 20px;
+
+}
+
+.H:after{
+    content: 'H';
+}
+.H:hover:after{
+    content: 'Hidrogênio';
+    font-size: 8px;
+}
+
+.He:after{
+    content: 'He';
+}
+.He:hover:after{
+    content: 'Hélio';
+    font-size: 8px;
+}
+
+.Li:after{
+    content: 'Li';
+}
+.Li:hover:after{
+    content: 'Lítio';
+    font-size: 8px;
+}
+
+.Be:after{
+    content: 'Be';
+}
+.Be:hover:after{
+    content: 'Berílio';
+    font-size: 8px;
+}
+
+.B:after{
+    content: 'B';
+}
+.B:hover:after{
+    content: 'Boro';
+    font-size: 8px;
+}
+
+.C:after{
+    content: 'C';
+}
+.C:hover:after{
+    content: 'Carbono';
+    font-size: 8px;
+}
+
+.N:after{
+    content: 'N';
+}
+.N:hover:after{
+    content: 'Nitrogênio';
+    font-size: 8px;
+}
+
+.O:after{
+    content: 'O';
+}
+.O:hover:after{
+    content: 'Oxigênio';
+    font-size: 8px;
+}
+
+.F:after{
+    content: 'F';
+}
+.F:hover:after{
+    content: 'Flúor';
+    font-size: 8px;
+}
+
+.Ne:after{
+    content: 'Ne';
+}
+.Ne:hover:after{
+    content: 'Neônio';
+    font-size: 8px;
+}
+
+.Na:after{
+    content: 'Na';
+}
+.Na:hover:after{
+    content: 'Sódio';
+    font-size: 8px;
+}
+
+.Mg:after{
+    content: 'Mg';
+}
+.Mg:hover:after{
+    content: 'Magnésio';
+    font-size: 8px;
+}
+
+.Al:after{
+    content: 'Al';
+}
+.Al:hover:after{
+    content: 'Alumínio';
+    font-size: 8px;
+}
+
+.Si:after{
+    content: 'Si';
+}
+.Si:hover:after{
+    content: 'Silício';
+    font-size: 8px;
+}
+
+.P:after{
+    content: 'P';
+}
+.P:hover:after{
+    content: 'Fósforo';
+    font-size: 8px;
+}
+
+.S:after{
+    content: 'S';
+}
+.S:hover:after{
+    content: 'Enxofre';
+    font-size: 8px;
+}
+
+.Cl:after{
+    content: 'Cl';
+}
+.Cl:hover:after{
+    content: 'Cloro';
+    font-size: 8px;
+}
+
+.Ar:after{
+    content: 'Ar';
+}
+.Ar:hover:after{
+    content: 'Argônio';
+    font-size: 8px;
+}
+
+.K:after{
+    content: 'K';
+}
+.K:hover:after{
+    content: 'Potássio';
+    font-size: 8px;
+}
+
+.Ca:after{
+    content: 'Ca';
+}
+.Ca:hover:after{
+    content: 'Cálcio';
+    font-size: 8px;
+}
+
+.Sc:after{
+    content: 'Sc';
+}
+.Sc:hover:after{
+    content: 'Escândio';
+    font-size: 8px;
+}
+
+.Ti:after{
+    content: 'Ti';
+}
+.Ti:hover:after{
+    content: 'Titânio';
+    font-size: 8px;
+}
+
+.V:after{
+    content: 'V';
+}
+.V:hover:after{
+    content: 'Vanádio';
+    font-size: 8px;
+}
+
+.Cr:after{
+    content: 'Cr';
+}
+.Cr:hover:after{
+    content: 'Crômio';
+    font-size: 8px;
+}
+
+.Mn:after{
+    content: 'Mn';
+}
+.Mn:hover:after{
+    content: 'Manganês';
+    font-size: 8px;
+}
+
+.Fe:after{
+    content: 'Fe';
+}
+.Fe:hover:after{
+    content: 'Ferro';
+    font-size: 8px;
+}
+
+.Co:after{
+    content: 'Co';
+}
+.Co:hover:after{
+    content: 'Cobalto';
+    font-size: 8px;
+}
+
+.Ni:after{
+    content: 'Ni';
+}
+.Ni:hover:after{
+    content: 'Níquel';
+    font-size: 8px;
+}
+
+.Cu:after{
+    content: 'Cu';
+}
+.Cu:hover:after{
+    content: 'Cobre';
+    font-size: 8px;
+}
+
+.Zn:after{
+    content: 'Zn';
+}
+.Zn:hover:after{
+    content: 'Zinco';
+    font-size: 8px;
+}
+
+.Ga:after{
+    content: 'Ga';
+}
+.Ga:hover:after{
+    content: 'Gálio';
+    font-size: 8px;
+}
+
+.Ge:after{
+    content: 'Ge';
+}
+.Ge:hover:after{
+    content: 'Germânio';
+    font-size: 8px;
+}
+
+.As:after{
+    content: 'As';
+}
+.As:hover:after{
+    content: 'Arsênio';
+    font-size: 8px;
+}
+
+.Se:after{
+    content: 'Se';
+}
+.Se:hover:after{
+    content: 'Selênio';
+    font-size: 8px;
+}
+
+.Br:after{
+    content: 'Br';
+}
+.Br:hover:after{
+    content: 'Bromo';
+    font-size: 8px;
+}
+
+.Kr:after{
+    content: 'Kr';
+}
+.Kr:hover:after{
+    content: 'Criptônio';
+    font-size: 8px;
+}
+
+.Rb:after{
+    content: 'Rb';
+}
+.Rb:hover:after{
+    content: 'Rubídio';
+    font-size: 8px;
+}
+
+.Sr:after{
+    content: 'Sr';
+}
+.Sr:hover:after{
+    content: 'Estrôncio';
+    font-size: 8px;
+}
+
+.Y:after{
+    content: 'Y';
+}
+.Y:hover:after{
+    content: 'Ítrio';
+    font-size: 8px;
+}
+
+.Zr:after{
+    content: 'Zr';
+}
+.Zr:hover:after{
+    content: 'Zircônio';
+    font-size: 8px;
+}
+
+.Nb:after{
+    content: 'Nb';
+}
+.Nb:hover:after{
+    content: 'Nióbio';
+    font-size: 8px;
+}
+
+.Mo:after{
+    content: 'Mo';
+}
+.Mo:hover:after{
+    content: 'Molibdênio';
+    font-size: 8px;
+}
+
+.Tc:after{
+    content: 'Tc';
+}
+.Tc:hover:after{
+    content: 'Tecnécio';
+    font-size: 8px;
+}
+
+.Ru:after{
+    content: 'Ru';
+}
+.Ru:hover:after{
+    content: 'Rutênio';
+    font-size: 8px;
+}
+
+.Rh:after{
+    content: 'Rh';
+}
+.Rh:hover:after{
+    content: 'Ródio';
+    font-size: 8px;
+}
+
+.Pd:after{
+    content: 'Pd';
+}
+.Pd:hover:after{
+    content: 'Paládio';
+    font-size: 8px;
+}
+
+.Ag:after{
+    content: 'Ag';
+}
+.Ag:hover:after{
+    content: 'Prata';
+    font-size: 8px;
+}
+
+.Cd:after{
+    content: 'Cd';
+}
+.Cd:hover:after{
+    content: 'Cádmio';
+    font-size: 8px;
+}
+
+.In:after{
+    content: 'In';
+}
+.In:hover:after{
+    content: 'Índio';
+    font-size: 8px;
+}
+
+.Sn:after{
+    content: 'Sn';
+}
+.Sn:hover:after{
+    content: 'Estanho';
+    font-size: 8px;
+}
+
+.Sb:after{
+    content: 'Sb';
+}
+.Sb:hover:after{
+    content: 'Antimônio';
+    font-size: 8px;
+}
+
+.Te:after{
+    content: 'Te';
+}
+.Te:hover:after{
+    content: 'Telúrio';
+    font-size: 8px;
+}
+
+.I:after{
+    content: 'I';
+}
+.I:hover:after{
+    content: 'Iodo';
+    font-size: 8px;
+}
+
+.Xe:after{
+    content: 'Xe';
+}
+.Xe:hover:after{
+    content: 'Xenônio';
+    font-size: 8px;
+}
+
+.Cs:after{
+    content: 'Cs';
+}
+.Cs:hover:after{
+    content: 'Césio';
+    font-size: 8px;
+}
+
+.Ba:after{
+    content: 'Ba';
+}
+.Ba:hover:after{
+    content: 'Bário';
+    font-size: 8px;
+}
+
+.La:after{
+    content: 'La';
+}
+.La:hover:after{
+    content: 'Lantânio';
+    font-size: 8px;
+}
+
+.Hf:after{
+    content: 'Hf';
+}
+.Hf:hover:after{
+    content: 'Háfnio';
+    font-size: 8px;
+}
+
+.Ta:after{
+    content: 'Ta';
+}
+.Ta:hover:after{
+    content: 'Tântalo';
+    font-size: 8px;
+}
+
+.W:after{
+    content: 'W';
+}
+.W:hover:after{
+    content: 'Tungtênio';
+    font-size: 8px;
+}
+
+.Re:after{
+    content: 'Re';
+}
+.Re:hover:after{
+    content: 'Rênio';
+    font-size: 8px;
+}
+
+.Os:after{
+    content: 'Os';
+}
+.Os:hover:after{
+    content: 'Ósmio';
+    font-size: 8px;
+}
+
+.Ir:after{
+    content: 'Ir';
+}
+.Ir:hover:after{
+    content: 'Irídio';
+    font-size: 8px;
+}
+
+.Pt:after{
+    content: 'Pt';
+}
+.Pt:hover:after{
+    content: 'Platina';
+    font-size: 8px;
+}
+
+.Au:after{
+    content: 'Au';
+}
+.Au:hover:after{
+    content: 'Ouro';
+    font-size: 8px;
+}
+
+.Hg:after{
+    content: 'Hg';
+}
+.Hg:hover:after{
+    content: 'Mercúrio';
+    font-size: 8px;
+}
+
+.Tl:after{
+    content: 'Tl';
+}
+.Tl:hover:after{
+    content: 'Tálio';
+    font-size: 8px;
+}
+
+.Pb:after{
+    content: 'Pb';
+}
+.Pb:hover:after{
+    content: 'Chumbo';
+    font-size: 8px;
+}
+
+.Bi:after{
+    content: 'Bi';
+}
+.Bi:hover:after{
+    content: 'Bismuto';
+    font-size: 8px;
+}
+
+.Po:after{
+    content: 'Po';
+}
+.Po:hover:after{
+    content: 'Polônio';
+    font-size: 8px;
+}
+
+.At:after{
+    content: 'At';
+}
+.At:hover:after{
+    content: 'Astato';
+    font-size: 8px;
+}
+
+.Rn:after{
+    content: 'Rn';
+}
+.Rn:hover:after{
+    content: 'Radônio';
+    font-size: 8px;
+}
+
+.Fr:after{
+    content: 'Fr';
+}
+.Fr:hover:after{
+    content: 'Frâncio';
+    font-size: 8px;
+}
+
+.Ra:after{
+    content: 'Ra';
+}
+.Ra:hover:after{
+    content: 'Rádio';
+    font-size: 8px;
+}
+
+.Ac:after{
+    content: 'Ac';
+}
+.Ac:hover:after{
+    content: 'Actínio';
+    font-size: 8px;
+}
+
+.Rf:after{
+    content: 'Rf';
+}
+.Rf:hover:after{
+    content: 'Rutherfórdio';
+    font-size: 8px;
+}
+
+.Db:after{
+    content: 'Db';
+}
+.Db:hover:after{
+    content: 'Dúbnio';
+    font-size: 8px;
+}
+
+.Sg:after{
+    content: 'Sg';
+}
+.Sg:hover:after{
+    content: 'Seabórgio';
+    font-size: 8px;
+}
+
+.Bh:after{
+    content: 'Bh';
+}
+.Bh:hover:after{
+    content: 'Bóhrio';
+    font-size: 8px;
+}
+
+.Hs:after{
+    content: 'Hs';
+}
+.Hs:hover:after{
+    content: 'Hássio';
+    font-size: 8px;
+}
+
+.Mt:after{
+    content: 'Mt';
+}
+.Mt:hover:after{
+    content: 'Meitnério';
+    font-size: 8px;
+}
+
+.Ds:after{
+    content: 'Ds';
+}
+.Ds:hover:after{
+    content: 'Darmstádtio';
+    font-size: 8px;
+}
+
+.Rg:after{
+    content: 'Rg';
+}
+.Rg:hover:after{
+    content: 'Roentgênio';
+    font-size: 8px;
+}
+
+.Cn:after{
+    content: 'Cn';
+}
+.Cn:hover:after{
+    content: 'Copernício';
+    font-size: 8px;
+}
+
+.Nh:after{
+    content: 'Nh';
+}
+.Nh:hover:after{
+    content: 'Nihônio';
+    font-size: 8px;
+}
+
+.Fl:after{
+    content: 'Fl';
+}
+.Fl:hover:after{
+    content: 'Fleróvio';
+    font-size: 8px;
+}
+
+.Mc:after{
+    content: 'Mc';
+}
+.Mc:hover:after{
+    content: 'Moscóvio';
+    font-size: 8px;
+}
+
+.Lv:after{
+    content: 'Lv';
+}
+.Lv:hover:after{
+    content: 'Livermório';
+    font-size: 8px;
+}
+
+.Ts:after{
+    content: 'Ts';
+}
+.Ts:hover:after{
+    content: 'Tennesso';
+    font-size: 8px;
+}
+
+.Og:after{
+    content: 'Og';
+}
+.Og:hover:after{
+    content: 'Oganessônio';
+    font-size: 8px;
+}
+
+.Ce:after{
+    content: 'Ce';
+}
+.Ce:hover:after{
+    content: 'Cério';
+    font-size: 8px;
+}
+
+.Pr:after{
+    content: 'Pr';
+}
+.Pr:hover:after{
+    content: 'Praseodímio';
+    font-size: 8px;
+}
+
+.Nd:after{
+    content: 'Nd';
+}
+.Nd:hover:after{
+    content: 'Neodímio';
+    font-size: 8px;
+}
+
+.Pm:after{
+    content: 'Pm';
+}
+.Pm:hover:after{
+    content: 'Promécio';
+    font-size: 8px;
+}
+
+.Sm:after{
+    content: 'Sm';
+}
+.Sm:hover:after{
+    content: 'Samário';
+    font-size: 8px;
+}
+
+.Eu:after{
+    content: 'Eu';
+}
+.Eu:hover:after{
+    content: 'Európio';
+    font-size: 8px;
+}
+
+.Gd:after{
+    content: 'Gd';
+}
+.Gd:hover:after{
+    content: 'Gadolínio';
+    font-size: 8px;
+}
+
+.Tb:after{
+    content: 'Tb';
+}
+.Tb:hover:after{
+    content: 'Térbio';
+    font-size: 8px;
+}
+
+.Dy:after{
+    content: 'Dy';
+}
+.Dy:hover:after{
+    content: 'Disprósio';
+    font-size: 8px;
+}
+
+.Ho:after{
+    content: 'Ho';
+}
+.Ho:hover:after{
+    content: 'Hólmio';
+    font-size: 8px;
+}
+
+.Er:after{
+    content: 'Er';
+}
+.Er:hover:after{
+    content: 'Érbio';
+    font-size: 8px;
+}
+
+.Tm:after{
+    content: 'Tm';
+}
+.Tm:hover:after{
+    content: 'Túlio';
+    font-size: 8px;
+}
+
+.Ym:after{
+    content: 'Ym';
+}
+.Ym:hover:after{
+    content: 'Itérbio';
+    font-size: 8px;
+}
+
+.Lu:after{
+    content: 'Lu';
+}
+.Lu:hover:after{
+    content: 'Lutécio';
+    font-size: 8px;
+}
+
+.Th:after{
+    content: 'Th';
+}
+.Th:hover:after{
+    content: 'Tório';
+    font-size: 8px;
+}
+
+.Pa:after{
+    content: 'Pa';
+}
+.Pa:hover:after{
+    content: 'Protactínio';
+    font-size: 8px;
+}
+
+.U:after{
+    content: 'U';
+}
+.U:hover:after{
+    content: 'Urânio';
+    font-size: 8px;
+}
+
+.Np:after{
+    content: 'Np';
+}
+.Np:hover:after{
+    content: 'Neptúnio';
+    font-size: 8px;
+}
+
+.Pu:after{
+    content: 'Pu';
+}
+.Pu:hover:after{
+    content: 'Plutônio';
+    font-size: 8px;
+}
+
+.Am:after{
+    content: 'Am';
+}
+.Am:hover:after{
+    content: 'Amerício';
+    font-size: 8px;
+}
+
+.Cm:after{
+    content: 'Cm';
+}
+.Cm:hover:after{
+    content: 'Cúrio';
+    font-size: 8px;
+}
+
+.Bk:after{
+    content: 'Bk';
+}
+.Bk:hover:after{
+    content: 'Berquélio';
+    font-size: 8px;
+}
+
+.Cf:after{
+    content: 'Cf';
+}
+.Cf:hover:after{
+    content: 'Califórnio';
+    font-size: 8px;
+}
+
+.Es:after{
+    content: 'Es';
+}
+.Es:hover:after{
+    content: 'Einstênio';
+    font-size: 8px;
+}
+
+.Fm:after{
+    content: 'Fm';
+}
+.Fm:hover:after{
+    content: 'Férmio';
+    font-size: 8px;
+}
+
+.Md:after{
+    content: 'Md';
+}
+.Md:hover:after{
+    content: 'Mendelévio';
+    font-size: 8px;
+}
+
+.No:after{
+    content: 'No';
+}
+.No:hover:after{
+    content: 'Nobélio';
+    font-size: 8px;
+}
+
+.Lr:after{
+    content: 'Lr';
+}
+.Lr:hover:after{
+    content: 'Laurêncio';
+    font-size: 8px;
+}
