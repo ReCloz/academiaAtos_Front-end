@@ -1,0 +1,2479 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+}
+
+div{
+    top: 0;
+    text-align: left;
+    font-size: 12px
+
+}
+
+a:link,a:visited,a:hover,a:active {
+    text-decoration: none;
+}
+
+caption{
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+body{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 90%;
+	font: inherit;
+	vertical-align: center;
+
+}
+
+table {
+    width: 1200px;
+    margin: 30px auto;
+
+}
+
+table tr{
+    max-width: 300px;
+}
+
+table th {
+    text-align: center;
+    min-height: 60px;
+    max-height: 30px;
+    border-radius: 8px;
+
+}
+
+table th:nth-child(4){
+    width: 10px;
+}
+
+table td {
+    border-radius: 8px;
+    min-width: 30px;
+}
+
+.metalalkalino {
+    background-color: rgb(136, 136, 248);
+   
+}
+
+.metaloid {
+    background-color: rgb(185, 123, 243);
+}
+
+.alkalinoterros {
+    background-color: rgb(211, 96, 96);
+}
+
+.ametais{
+    background-color: rgb(118, 202, 202);
+}
+
+.metaistrans{
+    background-color: rgb(127, 170, 84);
+}
+
+.gasnobre{
+    background-color: rgb(204, 172, 92);
+}
+
+.semimetal{
+    background-color: rgb(219, 137, 108);
+}
+
+.actinideo{
+    background-color: rgb(121, 121, 180);
+}
+
+.latanideo{
+    background-color: rgb(202, 113, 131);
+
+}
+
+.halogeneos{
+    background-color: rgb(240, 116, 182);
+    
+}
+
+.latanideo:hover,.actinideo:hover,.semimetal:hover,.gasnobre:hover,.metaistrans:hover,.ametais:hover,.alkalinoterros:hover,.metaloid:hover,.metalalkalino:hover,.halogeneos:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.legenda{
+    border-radius: 20px;
+
+}
+
+.H:after{
+    content: 'H';
+}
+.H:hover:after{
+    content: 'Hidrogênio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+    
+}
+
+.He:after{
+    content: 'He';
+}
+.He:hover:after{
+    content: 'Hélio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Li:after{
+    content: 'Li';
+}
+.Li:hover:after{
+    content: 'Lítio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Be:after{
+    content: 'Be';
+}
+.Be:hover:after{
+    content: 'Berílio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.B:after{
+    content: 'B';
+}
+.B:hover:after{
+    content: 'Boro';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.C:after{
+    content: 'C';
+}
+.C:hover:after{
+    content: 'Carbono';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.N:after{
+    content: 'N';
+}
+.N:hover:after{
+    content: 'Nitrogênio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.O:after{
+    content: 'O';
+}
+.O:hover:after{
+    content: 'Oxigênio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.F:after{
+    content: 'F';
+}
+.F:hover:after{
+    content: 'Flúor';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ne:after{
+    content: 'Ne';
+}
+.Ne:hover:after{
+    content: 'Neônio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Na:after{
+    content: 'Na';
+}
+.Na:hover:after{
+    content: 'Sódio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Mg:after{
+    content: 'Mg';
+}
+.Mg:hover:after{
+    content: 'Magnésio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Al:after{
+    content: 'Al';
+}
+.Al:hover:after{
+    content: 'Alumínio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Si:after{
+    content: 'Si';
+}
+.Si:hover:after{
+    content: 'Silício';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.P:after{
+    content: 'P';
+}
+.P:hover:after{
+    content: 'Fósforo';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.S:after{
+    content: 'S';
+}
+.S:hover:after{
+    content: 'Enxofre';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Cl:after{
+    content: 'Cl';
+}
+.Cl:hover:after{
+    content: 'Cloro';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ar:after{
+    content: 'Ar';
+}
+.Ar:hover:after{
+    content: 'Argônio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.K:after{
+    content: 'K';
+}
+.K:hover:after{
+    content: 'Potássio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ca:after{
+    content: 'Ca';
+}
+.Ca:hover:after{
+    content: 'Cálcio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Sc:after{
+    content: 'Sc';
+}
+.Sc:hover:after{
+    content: 'Escândio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ti:after{
+    content: 'Ti';
+}
+.Ti:hover:after{
+    content: 'Titânio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.V:after{
+    content: 'V';
+}
+.V:hover:after{
+    content: 'Vanádio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Cr:after{
+    content: 'Cr';
+}
+.Cr:hover:after{
+    content: 'Crômio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Mn:after{
+    content: 'Mn';
+}
+.Mn:hover:after{
+    content: 'Manganês';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Fe:after{
+    content: 'Fe';
+}
+.Fe:hover:after{
+    content: 'Ferro';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+
+}
+
+.Co:after{
+    content: 'Co';
+}
+.Co:hover:after{
+    content: 'Cobalto';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ni:after{
+    content: 'Ni';
+}
+.Ni:hover:after{
+    content: 'Níquel';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Cu:after{
+    content: 'Cu';
+}
+.Cu:hover:after{
+    content: 'Cobre';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Zn:after{
+    content: 'Zn';
+}
+.Zn:hover:after{
+    content: 'Zinco';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ga:after{
+    content: 'Ga';
+}
+.Ga:hover:after{
+    content: 'Gálio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ge:after{
+    content: 'Ge';
+}
+.Ge:hover:after{
+    content: 'Germânio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.As:after{
+    content: 'As';
+}
+.As:hover:after{
+    content: 'Arsênio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Se:after{
+    content: 'Se';
+}
+.Se:hover:after{
+    content: 'Selênio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Br:after{
+    content: 'Br';
+}
+.Br:hover:after{
+    content: 'Bromo';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Kr:after{
+    content: 'Kr';
+}
+.Kr:hover:after{
+    content: 'Criptônio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Rb:after{
+    content: 'Rb';
+}
+.Rb:hover:after{
+    content: 'Rubídio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Sr:after{
+    content: 'Sr';
+}
+.Sr:hover:after{
+    content: 'Estrôncio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Y:after{
+    content: 'Y';
+}
+.Y:hover:after{
+    content: 'Ítrio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Zr:after{
+    content: 'Zr';
+}
+.Zr:hover:after{
+    content: 'Zircônio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Nb:after{
+    content: 'Nb';
+}
+.Nb:hover:after{
+    content: 'Nióbio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Mo:after{
+    content: 'Mo';
+}
+.Mo:hover:after{
+    content: 'Molibdênio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Tc:after{
+    content: 'Tc';
+}
+.Tc:hover:after{
+    content: 'Tecnécio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ru:after{
+    content: 'Ru';
+}
+.Ru:hover:after{
+    content: 'Rutênio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Rh:after{
+    content: 'Rh';
+}
+.Rh:hover:after{
+    content: 'Ródio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Pd:after{
+    content: 'Pd';
+}
+.Pd:hover:after{
+    content: 'Paládio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ag:after{
+    content: 'Ag';
+}
+.Ag:hover:after{
+    content: 'Prata';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Cd:after{
+    content: 'Cd';
+}
+.Cd:hover:after{
+    content: 'Cádmio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.In:after{
+    content: 'In';
+}
+.In:hover:after{
+    content: 'Índio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Sn:after{
+    content: 'Sn';
+}
+.Sn:hover:after{
+    content: 'Estanho';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Sb:after{
+    content: 'Sb';
+}
+.Sb:hover:after{
+    content: 'Antimônio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Te:after{
+    content: 'Te';
+}
+.Te:hover:after{
+    content: 'Telúrio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.I:after{
+    content: 'I';
+}
+.I:hover:after{
+    content: 'Iodo';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Xe:after{
+    content: 'Xe';
+}
+.Xe:hover:after{
+    content: 'Xenônio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Cs:after{
+    content: 'Cs';
+}
+.Cs:hover:after{
+    content: 'Césio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ba:after{
+    content: 'Ba';
+}
+.Ba:hover:after{
+    content: 'Bário';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.La:after{
+    content: 'La';
+}
+.La:hover:after{
+    content: 'Lantânio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Hf:after{
+    content: 'Hf';
+}
+.Hf:hover:after{
+    content: 'Háfnio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ta:after{
+    content: 'Ta';
+}
+.Ta:hover:after{
+    content: 'Tântalo';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.W:after{
+    content: 'W';
+}
+.W:hover:after{
+    content: 'Tungtênio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Re:after{
+    content: 'Re';
+}
+.Re:hover:after{
+    content: 'Rênio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Os:after{
+    content: 'Os';
+}
+.Os:hover:after{
+    content: 'Ósmio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ir:after{
+    content: 'Ir';
+}
+.Ir:hover:after{
+    content: 'Irídio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Pt:after{
+    content: 'Pt';
+}
+.Pt:hover:after{
+    content: 'Platina';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Au:after{
+    content: 'Au';
+}
+.Au:hover:after{
+    content: 'Ouro';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Hg:after{
+    content: 'Hg';
+}
+.Hg:hover:after{
+    content: 'Mercúrio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Tl:after{
+    content: 'Tl';
+}
+.Tl:hover:after{
+    content: 'Tálio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Pb:after{
+    content: 'Pb';
+}
+.Pb:hover:after{
+    content: 'Chumbo';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Bi:after{
+    content: 'Bi';
+}
+.Bi:hover:after{
+    content: 'Bismuto';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Po:after{
+    content: 'Po';
+}
+.Po:hover:after{
+    content: 'Polônio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.At:after{
+    content: 'At';
+}
+.At:hover:after{
+    content: 'Astato';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Rn:after{
+    content: 'Rn';
+}
+.Rn:hover:after{
+    content: 'Radônio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Fr:after{
+    content: 'Fr';
+}
+.Fr:hover:after{
+    content: 'Frâncio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ra:after{
+    content: 'Ra';
+}
+.Ra:hover:after{
+    content: 'Rádio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ac:after{
+    content: 'Ac';
+}
+.Ac:hover:after{
+    content: 'Actínio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Rf:after{
+    content: 'Rf';
+}
+.Rf:hover:after{
+    content: 'Rutherfórdio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Db:after{
+    content: 'Db';
+}
+.Db:hover:after{
+    content: 'Dúbnio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Sg:after{
+    content: 'Sg';
+}
+.Sg:hover:after{
+    content: 'Seabórgio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Bh:after{
+    content: 'Bh';
+}
+.Bh:hover:after{
+    content: 'Bóhrio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Hs:after{
+    content: 'Hs';
+}
+.Hs:hover:after{
+    content: 'Hássio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Mt:after{
+    content: 'Mt';
+}
+.Mt:hover:after{
+    content: 'Meitnério';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ds:after{
+    content: 'Ds';
+}
+.Ds:hover:after{
+    content: 'Darmstádtio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Rg:after{
+    content: 'Rg';
+}
+.Rg:hover:after{
+    content: 'Roentgênio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Cn:after{
+    content: 'Cn';
+}
+.Cn:hover:after{
+    content: 'Copernício';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Nh:after{
+    content: 'Nh';
+}
+.Nh:hover:after{
+    content: 'Nihônio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Fl:after{
+    content: 'Fl';
+}
+.Fl:hover:after{
+    content: 'Fleróvio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Mc:after{
+    content: 'Mc';
+}
+.Mc:hover:after{
+    content: 'Moscóvio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Lv:after{
+    content: 'Lv';
+}
+.Lv:hover:after{
+    content: 'Livermório';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ts:after{
+    content: 'Ts';
+}
+.Ts:hover:after{
+    content: 'Tennesso';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Og:after{
+    content: 'Og';
+}
+.Og:hover:after{
+    content: 'Oganessônio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ce:after{
+    content: 'Ce';
+}
+.Ce:hover:after{
+    content: 'Cério';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Pr:after{
+    content: 'Pr';
+}
+.Pr:hover:after{
+    content: 'Praseodímio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Nd:after{
+    content: 'Nd';
+}
+.Nd:hover:after{
+    content: 'Neodímio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Pm:after{
+    content: 'Pm';
+}
+.Pm:hover:after{
+    content: 'Promécio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Sm:after{
+    content: 'Sm';
+}
+.Sm:hover:after{
+    content: 'Samário';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Eu:after{
+    content: 'Eu';
+}
+.Eu:hover:after{
+    content: 'Európio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Gd:after{
+    content: 'Gd';
+}
+.Gd:hover:after{
+    content: 'Gadolínio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Tb:after{
+    content: 'Tb';
+}
+.Tb:hover:after{
+    content: 'Térbio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Dy:after{
+    content: 'Dy';
+}
+.Dy:hover:after{
+    content: 'Disprósio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ho:after{
+    content: 'Ho';
+}
+.Ho:hover:after{
+    content: 'Hólmio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Er:after{
+    content: 'Er';
+}
+.Er:hover:after{
+    content: 'Érbio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Tm:after{
+    content: 'Tm';
+}
+.Tm:hover:after{
+    content: 'Túlio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Ym:after{
+    content: 'Ym';
+}
+.Ym:hover:after{
+    content: 'Itérbio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Lu:after{
+    content: 'Lu';
+}
+.Lu:hover:after{
+    content: 'Lutécio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Th:after{
+    content: 'Th';
+}
+.Th:hover:after{
+    content: 'Tório';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Pa:after{
+    content: 'Pa';
+}
+.Pa:hover:after{
+    content: 'Protactínio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.U:after{
+    content: 'U';
+}
+.U:hover:after{
+    content: 'Urânio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Np:after{
+    content: 'Np';
+}
+.Np:hover:after{
+    content: 'Neptúnio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Pu:after{
+    content: 'Pu';
+}
+.Pu:hover:after{
+    content: 'Plutônio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Am:after{
+    content: 'Am';
+}
+.Am:hover:after{
+    content: 'Amerício';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Cm:after{
+    content: 'Cm';
+}
+.Cm:hover:after{
+    content: 'Cúrio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Bk:after{
+    content: 'Bk';
+}
+.Bk:hover:after{
+    content: 'Berquélio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Cf:after{
+    content: 'Cf';
+}
+.Cf:hover:after{
+    content: 'Califórnio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Es:after{
+    content: 'Es';
+}
+.Es:hover:after{
+    content: 'Einstênio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Fm:after{
+    content: 'Fm';
+}
+.Fm:hover:after{
+    content: 'Férmio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Md:after{
+    content: 'Md';
+}
+.Md:hover:after{
+    content: 'Mendelévio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.No:after{
+    content: 'No';
+}
+.No:hover:after{
+    content: 'Nobélio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Lr:after{
+    content: 'Lr';
+}
+.Lr:hover:after{
+    content: 'Laurêncio';
+    font-size: 14px;
+    visibility: visible;
+    width: 160px;
+    background-color: rgb(88, 83, 83);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -85px;
+}
