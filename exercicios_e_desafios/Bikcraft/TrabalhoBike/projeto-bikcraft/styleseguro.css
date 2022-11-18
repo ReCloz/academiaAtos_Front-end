@@ -1,0 +1,188 @@
+.segprata,
+.seggold {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.segprata {
+    background-color: var(--c12);
+    height: 396px;
+    width: 560px;
+    left: 50px;
+    top: 100px;
+
+}
+
+.segprata h2 {
+    position: relative;
+    top: 32px;
+    left: 64px;
+    text-transform: uppercase;
+    color: var(--c6);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+
+}
+
+.seggold {
+    background-color: var(--c12);
+    height: 484px;
+    width: 560px;
+    left: 680px;
+    top: -350px;
+}
+
+.seggold h2 {
+    position: relative;
+    top: 32px;
+    left: 64px;
+    text-transform: uppercase;
+    color: var(--p1);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+
+}
+
+.seggold h4,
+.segprata h4 {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffff;
+    margin: 20px;
+    left: 30px;
+    top: 48px;
+}
+
+.segprata i,
+.seggold i {
+    position: relative;
+    right: 15px;
+}
+
+button {
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    width: 185px;
+    height: 56px;
+    top: 50px;
+    left: 60px;
+    border-radius: 5px;
+
+}
+
+.segprata button {
+    background-color: var(--c10);
+    color: var(--c4);
+}
+
+.seggold button {
+    background-color: var(--p1);
+    color: var(--p5);
+}
+
+.preco {
+    position: relative;
+    width: 200px;
+    top: -302px;
+    left: 200px;
+    text-align: right;
+
+}
+
+.preco h4 {
+    text-transform: lowercase;
+    color: var(--c6);
+    left: 85px;
+    top: 10px;
+}
+
+.preco h2 {
+    color: var(--w);
+}
+
+.seggold .preco {
+    top: -388px;
+}
+
+.blocoseguro {
+    position: relative;
+    top: 50px;
+    left: 20px;
+    width: 360px;
+    height: 152px;
+}
+
+.blocoseguro h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--w);
+}
+
+.blocoseguro i {
+    color: var(--p1);
+    font-size: 32px;
+}
+
+.blocoseguro h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--c6);
+}
+
+table {
+    position: relative;
+    top: 20px;
+    border-spacing: 40px;
+}
+
+.segpergunta {
+    position: relative;
+    width: 1000px;
+
+    top: 100px;
+}
+
+.segpergunta div:nth-child(odd) {
+    background-color: var(--c1);
+}
+
+.segperguntapergunta {
+    position: relative;
+    min-height: 64px;
+
+
+}
+
+.segperguntapergunta h2 {
+    position: relative;
+    left: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 64px;
+    color: var(--c11);
+}
+

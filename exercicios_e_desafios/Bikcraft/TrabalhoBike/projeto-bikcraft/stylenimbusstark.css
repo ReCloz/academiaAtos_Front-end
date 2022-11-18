@@ -1,0 +1,220 @@
+.nimbusbikefoto {
+    position: relative;
+
+
+}
+
+.nimbusbikefoto img {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.nimbussidetext {
+    overflow: hidden;
+    height: 1000px;
+    position: relative;
+    width: 560px;
+    top: -700px;
+    left: 630px;
+}
+
+.nimbussidetext h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--c5);
+}
+
+.nimbussideinfo {
+    position: relative;
+    top: 50px;
+}
+
+.nimbussideinfo h4 {
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--w);
+    margin: 5px;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+
+.nimbussideblackblock table {
+    background-color: var(--c12);
+    border-spacing: 20px;
+    border-radius: 5px;
+    width: 530px;
+}
+
+.nimbussideblackblock h3 {
+    color: var(--w);
+    margin: 5px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+
+.nimbussideblackblock table h4 {
+    color: var(--c5);
+    margin: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: none;
+}
+
+.nimbusficha td:nth-child(2) {
+    text-align: end;
+}
+
+.nimbusficha table {
+    border-radius: 5px;
+    background-color: var(--c12);
+    width: 530px;
+    padding: 25px 25px 25px 25px;
+
+}
+
+.nimbusficha h4 {
+    text-transform: none;
+}
+
+.nimbusficha h4:nth-child(1) {
+    color: var(--c4);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nimbusficha h4:nth-child(2) {
+    color: var(--c6);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+.nimbusbikemerch {
+
+    overflow: hidden;
+    position: relative;
+    top: 50px;
+    left: -50px;
+
+}
+
+.nimbusbikemerch table {
+    border-spacing: 50px;
+}
+
+.nimbusbikemerch figure {
+    width: 560px;
+    overflow: hidden;
+
+}
+
+.nimbusbikemerch figcaption {
+    width: 560px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.nimbusbikemerch h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--c11);
+}
+
+.nimbusbikemerch h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--c8);
+}
+
+.nimbustextovermais {
+    width: 520px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    top: -700px;
+    left: 730px;
+}
+
+.nimbustextovermais h1 {
+    width: 550px;
+    text-transform: none;
+}
+
+.nimbustextovermais h3 {
+    margin-top: -20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--c5);
+
+}
+
+button {
+    position: relative;
+    top: 10px;
+    height: 56px;
+    width: 204px;
+    background-color: var(--p1);
+    border: 0px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--p5);
+    text-transform: uppercase;
+    border-style: none;
+}
+
+.nimbuspedaleimg {
+    position: relative;
+    top: -130px;
+}
+
+.nimbustextovermais h1::after {
+    content: "seguro.";
+    color: var(--p1);
+
+}
+
+.nimbuspedale {
+    left: -150px;
+    width: 1250px;
+
+}

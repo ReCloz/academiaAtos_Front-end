@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+:root {
+    --c12: #000;
+    --c11: #111;
+    --c10: #2E2E2E;
+    --c9: #404040;
+    --c8: #595959;
+    --c7: #717171;
+    --c6: #9C9C9C;
+    --c5: #B2B2B2;
+    --c4: #CCC;
+    --c3: #DEDEDE;
+    --c2: #EDEDED;
+    --c1: #F7F7F7;
+    --w: #FFF;
+    --p5: #332200;
+    --p4: #664400;
+    --p3: #A66F00;
+    --p2: #E4A30B;
+    --p1: #FFBB00;
+}
+
+h2 {
+    color: var(--w);
+}
+
+
+
+.box-side {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 10px;
+    width: 200px;
+    color: #CCC;
+
+    top: 60px;
+    left: 60px;
+
+
+    color: var(--c4);
+}
+
+.iconlocal {
+    position: relative;
+    top: 82px;
+    left: 24px;
+    font-size: 24px;
+}
+
+.con-main-box {
+    width: 1160px;
+    height: 500px;
+    background-color: var(--w);
+    position: relative;
+    margin: auto;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow-x: hidden;
+}
+
+.redessociais {
+    position: relative;
+    width: 500px;
+    top: 150px;
+    left: 38px;
+    font-size: 40px;
+}
+
+.redessociais i {
+    margin: 16px;
+}
+
+.con-main-container {
+    width: 1200px;
+    margin: auto;
+    background-color: var(--c2);
+}
+
+.lojalocal {
+    position: relative;
+
+}
+
+.lojalocal figcaption {
+    background-color: var(--w);
+    text-align: left;
+    height: 260px;
+
+}
+
+.lojalocal h2,
+.lojalocal h3,
+.lojalocal h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+
+}
+
+.lojalocal h2 {
+    position: relative;
+    color: #000;
+    top: 32px;
+    left: 60px;
+}
+
+.lojalocal h3 {
+    position: relative;
+    color: #000;
+
+}
+
+.lojalocal h4 {
+    color: var(--c8);
+}
+
+.captionesquerdo,
+.captiondireito {
+    position: relative;
+    margin: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+
+
+}
+
+.captiondireito {
+    left: 283px;
+}
+
+.captionesquerdo {
+    top: 66px;
+    left: 74px;
+}
+
+.iconlegenda {
+    position: relative;
+    left: 40px;
+    width: 100px;
+
+}
+
+.iconlegenda i {
+    position: relative;
+    top: 20px;
+    width: 20px;
+}
+
+.iconlegenda h3 {
+    left: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    width: 200px;
+
+}

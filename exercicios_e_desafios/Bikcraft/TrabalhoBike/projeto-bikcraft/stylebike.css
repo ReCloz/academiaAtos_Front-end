@@ -1,0 +1,136 @@
+.bikebloco {
+    position: relative;
+    width: 1000px;
+
+    margin: auto;
+
+    left: 80px;
+}
+
+.bikebike{
+    position: relative;
+
+    width: 1200px;
+
+    position: relative;
+    width: 1000px;
+
+    margin: auto;
+
+    left: 80px;
+}
+
+.biketarja{
+    position: relative;
+    top: -500px;
+    height: 300px;
+}
+
+.bikebike figure {
+    position: relative;
+    display: flex;
+    align-items: center;
+left: -200px;
+}
+
+.bikebike h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--c11);
+    position: relative;
+    top: -10px;
+}
+
+.bikebike h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--c8);
+    width: 430px;
+}
+
+.bikebike h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--c8);
+    position: relative;
+    left: 5px;
+}
+
+.bikebike figcaption {
+    position: relative;
+    left: 30px;
+    width: 602px;
+}
+
+.bikebike figcaption img {
+    position: relative;
+    top: 10px;
+}
+
+button {
+    position: relative;
+    left: -200px;
+    top: 140px;
+    height: 56px;
+    width: 204px;
+    background-color: var(--p1);
+    border: 0px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--p5);
+    text-transform: uppercase;
+    border-style: none;
+}
+
+.bikepreco {
+    position: relative;
+    background-color: var(--c12);
+    width: 500px;
+    height: 500x;
+    border-radius: 5px;
+    left: -550px;
+    top: -130px;
+}
+
+.bikepreco h2 {
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    color: var(--w);
+    top: 1px;
+    width: 100px;
+
+}
+
+.bikebloco {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.bikebloco:nth-child(2) {
+    background-color: var(--c12);
+
+}
+.bikebloco:nth-child(2) h2{
+    color: var(--w);
+}
+.bikebloco:nth-child(2) h3, .bikebloco:nth-child(2) h4{
+    color: var(--c5);
+}
